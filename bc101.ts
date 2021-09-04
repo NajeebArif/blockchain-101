@@ -47,5 +47,5 @@ export function mine(){
     console.log(warning('mining block 2'))
     blockchain.addBlock('Second Block')
 
-    console.log(info(JSON.stringify(blockchain)));
+    console.log(info(JSON.stringify(blockchain, null, 2)));
 }
